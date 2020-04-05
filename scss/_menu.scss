@@ -15,7 +15,7 @@
     @include easeOut;
   }
 
-  // Rotate Into X With Menu Lines
+  // Rotate Into X with Menu Lines
   &.close {
     transform: rotate(180deg);
 
@@ -29,7 +29,6 @@
       &:nth-child(2) {
         opacity: 0;
       }
-
       // Line 3 - Rotate
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
@@ -38,7 +37,7 @@
   }
 }
 
-// Menu Overlay
+// Menu OverLay
 .menu {
   position: fixed;
   top: 0;
@@ -97,11 +96,11 @@
   }
 
   .nav-item {
-    transform: translate3d(600px, 0, 0);
+    transform: translate3d(900px, 0, 0);
     @include easeOut;
 
     &.show {
-      // Slide in from right
+      // Slide in from bottom
       transform: translate3d(0, 0, 0);
     }
 

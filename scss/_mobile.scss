@@ -1,18 +1,16 @@
 // Widescreens
-@include mediaXl {
+@include mediaXL {
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
 // Desktops & Laptops
 @include mediaLg {
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-// Tablets & Small Laptops
+//Tablets & Small Laptops
 @include mediaMd {
   main {
     align-items: center;
